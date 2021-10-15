@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio2.1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+      <div class="imgSidebar">
+        <img src="./lib/WhatsApp Image 2021-10-10 at 17.36.48 (1).jpeg" alt="Reza" />
+      </div>
+      <div class="contentBx">
+        <h5 class="logoText">Portfolio 2.1</h5>
+        <div>
+          <h4><span>Hello</span> I'm</h4>
+          <h2>Mohammad Reza Andrianto</h2>
+          <h4>I'm a Junior Front End Developer.</h4>
+          <p>
+            Halo!, Nama saya Mohammad Reza Andrianto saya laki laki kelahiran sukabumi <br />
+            tepatnya di cimelati saya lulus dari Madrasah Aliyah Negeri 19 Jakarta pada tahun 2013 <br />
+            dan lulus dari perkuliahan pada tahun 2016 jurusan kuliah saya adalah Teknologi Industri di Politeknik Negeri Yogyakarta, <br />
+            dan sekarang saya sedang fokus menjadi Front End Engineer yang dibutuhkan oleh banyak industri saya juga seorang Freelance Graphic Designer <br />
+            Jika butuh saya dalam project ataupun acara anda, saya senang bisa dihubungi! <br />
+          </p>
+          <a href="#" class="btn">About Me</a>
+        </div>
+        <ul class="sci">
+          <li>
+            <a href="https://www.facebook.com/reza.andrianto.10/"><img src="./lib/facebook.png" alt="" /></a>
+          </li>
+          <li>
+            <a href=" https://twitter.com/Negan__1"><img src="./lib/twitter.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/rezampret_/"><img src="./lib/instagram.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="title">
+        <h2>My Gallery</h2>
+      </div>
+      <div class="content">
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/1.jpeg" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 1</h3>
+          </div>
+        </div>
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/2.png" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 2</h3>
+          </div>
+        </div>
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/3.jpeg" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 3</h3>
+          </div>
+        </div>
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/4.jpeg" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 4</h3>
+          </div>
+        </div>
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/5.jpeg" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 5</h3>
+          </div>
+        </div>
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/6.jpeg" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 6</h3>
+          </div>
+        </div>
+        <div class="galleryBx">
+          <div class="imgBx">
+            <img src="./lib/resize-16339267118285019487.jpeg" alt="Image" />
+          </div>
+          <div class="textBx">
+            <h3>Gallery 7</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title-white">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contactForm">
+        <div class="row">
+          <div class="col150">
+            <input type="text" name="" placeholder="First Name" />
+          </div>
+          <div class="col150">
+            <input type="text" name="" placeholder="Last Name" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col150">
+            <input type="text" name="" placeholder="Email" />
+          </div>
+          <div class="col150">
+            <input type="text" name="" placeholder="Phone Number" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col100">
+            <textarea placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col100">
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>Made with Luv by Mohammad Reza Andrianto, Copyright @2021 All Right Reserved.</p>
+    </div>
+
+    <div class="sidebar">
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Gallery</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".toggle");
+        const sidebar = document.querySelector(".sidebar");
+        menuToggle.classList.toggle("active");
+        sidebar.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
